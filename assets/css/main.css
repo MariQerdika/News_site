@@ -169,6 +169,18 @@ nav {
   background: deepskyblue;
   border: 1px solid deepskyblue;
 }
+.slider .text, .slider .typed-cursor {
+  display: inline;
+  font-size: 30px;
+}
+
+
+
+
+
+
+
+
 @media (max-width: 1199.98px) {
   .menu_list li {
     padding: 0 3px;
