@@ -1,8 +1,17 @@
-  $(document).ready(function(){
+$(document).ready(function(){
+  $(".menu_li").click(function(){
+    $(this).addClass("active");
+    $(".menu_li").not(this).removeClass("active");
+  });
+});
+
+
+$(document).ready(function(){
   $('.toggle').click(function(){
     $('.menu_list').toggleClass('active');
   });
 });
+
 
   jQuery(document).ready(function(){
   "use strict"
@@ -18,8 +27,58 @@ var typed = new Typed('.text', {
   loop:true,
 });
 
+
+$(window).scroll(function(){
+  var top = $(window).scrollTop();
+  if(top>=60){
+    $("header").addClass('secondary');
+  }
+  else if ($("header").hasClass('secondary')){
+           $("header").removeClass('secondary');
+  }
+  });
+
+$('.work').magnificPopup({
+  delegate: 'a', // child items selector, by clicking on it popup will open
+  type: 'image',
+  gallery: {
+  enabled: true
+  }
 });
 
 
 
-  
+var owl = $('.owl-carousel');
+owl.owlCarousel({
+    items:3,
+    loop:true,
+    margin:10,
+    boolean:true,
+    autoplay:true,
+    autoplayTimeout:3000,
+    responsiveClass:true,
+    
+    responsive:{
+        0:{
+            items:1,
+        },
+        600:{
+            items:2,
+        },
+        1000:{
+            items:3,  
+        },
+        1200:{
+            items:3,  
+        }
+    }
+});
+
+
+
+
+
+});
+
+
+
