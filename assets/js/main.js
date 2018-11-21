@@ -50,7 +50,7 @@ $('.work').magnificPopup({
 
 var owl = $('.owl-carousel');
 owl.owlCarousel({
-    items:3,
+    items:1,
     loop:true,
     margin:10,
     boolean:true,
