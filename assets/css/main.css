@@ -481,7 +481,7 @@ h4.team-member-designation {
   color: #7969c2;
   text-decoration: none;
 }
-.btn {
+.latest-news-area .btn {
   border: 1px solid #09043a;
   background: none;
   padding: 10px 20px;
@@ -493,13 +493,13 @@ h4.team-member-designation {
   border-radius: 0;
   border-top-right-radius: 25px;
 }
-.btn3 {
+.latest-news-area .btn3 {
   color: #fff;
 }
-.btn3:hover {
+.latest-news-area .btn3:hover {
   color: #09043a;
 }
-.btn::before {
+.latest-news-area .btn::before {
   content: "";
   position: absolute;
   left:0;
@@ -509,14 +509,14 @@ h4.team-member-designation {
   z-index: -1;
   transition: 0.8s;
 }
-.btn3::before {
+.latest-news-area .btn3::before {
   top:0;
   border-radius: 0 0 50% 50%;
 }
-.btn3::before {
+.latest-news-area .btn3::before {
   height: 180%;
 }
-.btn3:hover::before {
+.latest-news-area .btn3:hover::before {
   height: 0%;
 }
 /*---------------------------------------------------end blog section------------------------------------------*/
