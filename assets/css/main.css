@@ -481,6 +481,44 @@ h4.team-member-designation {
   color: #7969c2;
   text-decoration: none;
 }
+.btn {
+  border: 1px solid #09043a;
+  background: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0;
+  border-top-right-radius: 25px;
+}
+.btn3 {
+  color: #fff;
+}
+.btn3:hover {
+  color: #09043a;
+}
+.btn::before {
+  content: "";
+  position: absolute;
+  left:0;
+  width: 100%;
+  height: 0%;
+  background: #09043a;
+  z-index: -1;
+  transition: 0.8s;
+}
+.btn3::before {
+  top:0;
+  border-radius: 0 0 50% 50%;
+}
+.btn3::before {
+  height: 180%;
+}
+.btn3:hover::before {
+  height: 0%;
+}
 /*---------------------------------------------------end blog section------------------------------------------*/
 .section-heading .borde-bottom {
   background: #7969c2;
