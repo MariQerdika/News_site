@@ -568,7 +568,6 @@ footer span {
 
 
 
-
 @media (max-width: 1199.98px) {
   .menu_list li {
     padding: 0 3px;
@@ -606,11 +605,16 @@ footer span {
   .active {
     display: inline;
   }
-  
+}
+@media (max-width: 767.98px) {
+  .contact-item {
+    border-bottom: 1px dotted;
+    padding: 20px 0;
+  }
 }
 @media (max-width: 575.98px) {
   .latest-news-wrap {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 }
 
