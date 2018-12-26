@@ -89,3 +89,14 @@ owl.owlCarousel({
 
 
 
+var button = document.getElementById("button")
+button.addEventListener('click', function(){
+  swal("Your text here:", {
+  content: "input",
+})
+.then((value) => {
+  swal(`You typed: ${value}`);
+});
+})
+
+

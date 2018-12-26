@@ -131,6 +131,7 @@ nav {
   border-top-left-radius: 15px;
   transition: all 0.5s ease-in;
   margin-right: -6px;
+  cursor: pointer;
 }
 .btn1:hover {
   text-decoration: none;
@@ -138,6 +139,16 @@ nav {
   background: #341ab7;
   border-color: #341ab7;
 }
+.swal-button {
+    background-color: #281d57 !important;
+}
+.swal-content__input, .swal-content__textarea {
+  border: 1px solid rgb(131, 117, 189) !important;
+}
+.swal-text {
+  font-style: italic;
+}
+
 .btn2 {
   padding: 10px 30px;
   background: transparent;
@@ -149,6 +160,7 @@ nav {
   border-bottom-right-radius: 15px;
   transition: all 0.5s ease-in;
    margin-right: 10px;
+   cursor: pointer;
 }
 .btn2:hover {
   text-decoration: none;
